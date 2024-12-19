@@ -89,7 +89,7 @@ main {
 }
 
 .sitenav__link:active {
-  background-color: #755CDE;
+  background-color: #755cde;
   color: #fff7f0;
 }
 
@@ -247,10 +247,16 @@ main {
   display: flex;
   align-items: center;
   gap: 3rem;
+  width: 1439px;
+  overflow-x: scroll;
+  overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 .work__images img {
   border-radius: 0.8rem;
+  transition-duration: 3s;
+  transition-timing-function: linear;
 }
 
 .work__arrows {
@@ -266,7 +272,11 @@ main {
 }
 
 .work__arrows img:active {
-  background-color: #755CDE;
+  background-color: #755cde;
+}
+
+.work__arrows img:active {
+  background-color: #755cde;
 }
 
 .contact {
@@ -325,6 +335,6 @@ main {
 }
 
 .footer__link:active {
-  background-color: #755CDE;
+  background-color: #755cde;
   color: #fff7f0;
 }/*# sourceMappingURL=style.css.map */

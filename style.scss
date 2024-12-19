@@ -12,7 +12,7 @@ $motion-graphics-color: #552049;
 $link-color: #fff7f0;
 $grid-first-card-bg: #755cde;
 $white-color: #ffffff;
-$btn_blue_actibe: #755CDE;
+$btn_blue_actibe: #755cde;
 /* plus-jakarta-sans-500 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -109,8 +109,8 @@ main {
 }
 
 .sitenav__link:active {
-    background-color: $btn_blue_actibe;
-    color: $link-color;
+  background-color: $btn_blue_actibe;
+  color: $link-color;
 }
 // header style end
 
@@ -249,8 +249,8 @@ main {
 }
 
 .amy__info__link:active {
-    background-color: $uiux-color;
-    color: $link-color;
+  background-color: $uiux-color;
+  color: $link-color;
 }
 
 // Amy section style end
@@ -276,10 +276,16 @@ main {
   display: flex;
   align-items: center;
   gap: 3rem;
+  width: 1439px;
+  overflow-x: scroll;
+  overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 .work__images img {
   border-radius: 0.8rem;
+  transition-duration: 3s;
+  transition-timing-function: linear;
 }
 
 .work__arrows {
@@ -295,7 +301,11 @@ main {
 }
 
 .work__arrows img:active {
-    background-color: $btn_blue_actibe;
+  background-color: $btn_blue_actibe;
+}
+
+.work__arrows img:active {
+  background-color: $btn_blue_actibe;
 }
 
 // Work section style end
@@ -358,7 +368,7 @@ main {
 }
 
 .footer__link:active {
-    background-color: $btn_blue_actibe;
-    color: $link-color;
+  background-color: $btn_blue_actibe;
+  color: $link-color;
 }
 // Footer style end
